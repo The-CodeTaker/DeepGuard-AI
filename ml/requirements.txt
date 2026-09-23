@@ -1,0 +1,11 @@
+torch
+torchvision
+torchaudio
+opencv-python==4.10.0.84
+chromadb
+ollama
+django
+djangorestframework
+django-cors-headers
+scikit-learn
+Pillow

@@ -1,0 +1,63 @@
+# =========================
+# Environments & Runtimes
+# =========================
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyc
+
+# =========================
+# Databases & Local Artifacts (PRIVACY)
+# =========================
+*.sqlite3
+*.sqlite
+backend/db.sqlite3
+ml/chroma_db/
+uploads/
+media/
+backend/media/
+
+# =========================
+# Datasets (Bulk Data)
+# =========================
+data/
+datasets/
+*.zip
+
+# =========================
+# Personal Dump & Helper Scripts
+# =========================
+project_export*.txt
+export.py
+copy_to_usb.py
+
+# =========================
+# Model Weights
+# =========================
+*.pt
+*.pth
+# Allow your trained model to be tracked:
+*.ckpt
+*.onnx
+checkpoints/
+
+# =========================
+# Frontend & Build
+# =========================
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+dist-ssr/
+*.local
+
+# =========================
+# System & Editor
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
